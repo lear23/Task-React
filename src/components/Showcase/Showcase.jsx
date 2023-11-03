@@ -12,10 +12,8 @@ const Showcase = () => {
                 <h1>We provide the best Business solutions</h1>
                 <p>Establish your vision and value proposition and turn them into testable prototypes </p>
                 <div className="buttons-showcase">
-                    <Buttons type='
-                    transparent' text='Get Consulting' url='/services/get-consulting'/>        
-                    <Buttons type='
-                    transparent' text='Learn More' url='/services/consulting'/>
+                    <Buttons type='transparent' text='Get Consulting' url='/services/get-consulting'/>        
+                    <Buttons type='transparent' text='Learn More' url='/services/consulting'/>
                 </div>
                 <div className="line2">
                     <img src={BackgroundLine} alt="a line" />
