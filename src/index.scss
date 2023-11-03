@@ -1,0 +1,112 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,900;1,9..40,600&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+html, body{
+ color: #191919;
+ font-family: 'Inter', sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ text-align: center;
+
+
+ 
+}
+
+.wrapper{
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-theme {
+  background-color: #f9d783;
+  border: 1px solid #f9d783;
+  color: #191919;
+  text-decoration: none;
+  padding: 12px 26px;
+  font-weight: 600;
+  border-radius: 30px;
+
+  i{
+      margin-left: 8px;
+      padding-bottom: 15px;
+      font-size: 9px;
+      font-weight: bolder;
+  }
+  &:hover{
+      background-color: #191919;
+      color: whitesmoke;
+  }
+}
+
+.btn-black {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 30px;
+
+  i{
+      margin-left: 8px;
+      padding-bottom: 15px;
+      font-size: 9px;
+      font-weight: bolder;
+  }
+  &:hover{
+      background-color: #ffffff;
+      border:1px solid #191919;
+      color: #191919;
+  }
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: none;
+  padding: 12px 28px;
+  font-weight: 600;
+  border-radius: 30px;
+
+  i{
+      margin-left: 8px;
+      padding-bottom: 15px;
+      font-size: 9px;
+      font-weight: bolder;
+  }
+  &:hover{
+      background-color: #f9d783;
+      color: #191919;
+      border: none;
+  }
+}
+
+/* .btn-theme-3 {
+  background-color: #191919;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 40px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  border-radius: 30px;
+
+  @media (min-width:1200px){
+      padding: 17px 50px;
+  } 
+} */
